@@ -1,0 +1,6 @@
+package lesson_6.interface3;
+class Window implements Openable{
+    public void open() {
+        System.out.println("Чтобы открыть окно, нужно повернуть ручку.");
+    }
+}
